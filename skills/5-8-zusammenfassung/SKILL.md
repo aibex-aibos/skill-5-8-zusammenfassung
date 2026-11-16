@@ -1,6 +1,6 @@
 ---
 name: 5-8-zusammenfassung
-version: 1.2.2
+version: 1.3.0
 description: >
   Gliedert ein Dokument als 5-8-Zusammenfassung: zwei Ebenen mit je 5 bis 8 disjunkten,
   erschöpfenden Themen, abgelegt als Memo nach dem Skill "memo". Verwenden, wenn der User

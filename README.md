@@ -1,16 +1,16 @@
 # skill-5-8-zusammenfassung
 
-Paket von AIbex AIOS mit dem Skill `5-8-zusammenfassung`, Version 1.2.1: gliedert ein Dokument zweistufig in je 5 bis 8 disjunkte, erschöpfende Themen und legt das Ergebnis als Memo im `@Memo/`-Ordner des Projekts ab.
+Paket von AIbex AIBOS mit dem Skill `5-8-zusammenfassung`, Version 1.3.0: gliedert ein Dokument zweistufig in je 5 bis 8 disjunkte, erschöpfende Themen und legt das Ergebnis als Memo im `@Memo/`-Ordner des Projekts ab.
 
 ## Holen
 
-**Voraussetzung:** AIbex AIOS v0.4 oder v0.5 ist installiert, und der Vault oder das Projekt ist mit `aios --activate v0.4.<n>` bzw. `v0.5.<n>` aktiviert.
+**Voraussetzung:** AIbex AIBOS v0.7 ist installiert, und der Vault ist an der Vault-Root mit `aibos --activate v0.7.<n>` gebunden (ein AIBOS-Workspace).
 
 ```bash
-aios --fetch skill-5-8-zusammenfassung
+aibos --fetch skill-5-8-zusammenfassung
 ```
 
-Das Paket braucht `skill-memo` (`~=6.0`); `aios --fetch` holt es mit. Der Skill wirkt **ab dem nächsten Chat** im Projekt.
+Das Paket braucht `skill-memo` (`~=6.1`); `aibos --fetch` holt es mit. Der Skill wirkt **ab dem nächsten Chat** im Projekt.
 
 ## Aufruf
 
@@ -20,4 +20,4 @@ Ab 1.2.0 kann ein Aufrufer, ein anderer Skill oder du im Chat, **Vorgaben** mach
 
 ## Lizenz
 
-Apache License 2.0 (`LICENSE`), Rechteinhaber AIbex KG (`NOTICE`). Die Marken „AIbex" und „AIbex AIOS" sind nicht mitlizenziert.
+Apache License 2.0 (`LICENSE`), Rechteinhaber AIbex KG (`NOTICE`). Die Marken „AIbex" und „AIbex AIBOS" sind nicht mitlizenziert.
